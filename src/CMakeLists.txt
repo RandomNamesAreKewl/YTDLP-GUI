@@ -8,4 +8,4 @@ add_subdirectory(UILy)
 
 add_executable(yt-dlp-gui main.cpp)
 target_include_directories(yt-dlp-gui PUBLIC UILy)
-target_link_libraries(yt-dlp-gui UILy gui glfw OpenGL::GL)
+target_link_libraries(yt-dlp-gui PRIVATE UILy gui glfw OpenGL::GL)
