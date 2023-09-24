@@ -1,3 +1,4 @@
+#define UILY_LIB
 #include "debug.h"
 
 namespace UILy

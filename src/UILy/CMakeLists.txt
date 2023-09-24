@@ -9,4 +9,4 @@ add_subdirectory(imgui)
 
 include_directories(${OPENGL_INCLUDE_DIR} .)
 
-add_library(UILy SHARED UILy/window.cpp UILy/rendering.cpp UILy/debug.cpp)
+add_library(UILy STATIC UILy/window.cpp UILy/rendering.cpp UILy/debug.cpp)
